@@ -1,4 +1,4 @@
-from calculator import Calc
+from exercise_1 import Calc
 
 
 class TestCalc:

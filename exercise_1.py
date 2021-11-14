@@ -1,3 +1,7 @@
+"""Stwórz klasę Calculator, w której zaimplementujesz działania: dodawanie, odejmowanie, mnożenie, dzielenie. Napisz
+ testy, które przetestują wcześniej wymienione metody."""
+
+
 class Calc:
     def __init__(self, a, b):
         self.a = a
