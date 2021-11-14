@@ -1,0 +1,11 @@
+$ pip install pytest
+Uruchomienie pytest dla konkretnego pliku:
+$ pytest test_mymodule.py
+Uruchomienie wszystkiego, co ma w nazwie special_run:
+$ pytest -k 'special_run'
+Uruchomienie testów, które są udekorowane wybranym markerem marker_name:
+$ pytest -m 'marker_name'
+
+$ pip install coverage
+coverage run --source="." --omit="*/venv/*" -m pytest
+coverage report product.py company.py
