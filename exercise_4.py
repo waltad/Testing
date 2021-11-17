@@ -14,7 +14,8 @@ print(get_avg(3))
 i plik test2.txt o zawartości:
 123456789
 
-Funkcja get_avg pobiera z pliku how_much cyfr i liczy z nich średnią. Przetestuj funkcję get_avg, wiedząc że w pliku możesz spodziewać się tylko liczb i nie możesz do testów używać pliku.
+Funkcja get_avg pobiera z pliku how_much cyfr i liczy z nich średnią. Przetestuj funkcję get_avg, wiedząc że w pliku
+ możesz spodziewać się tylko liczb i nie możesz do testów używać pliku.
 Podpowiedź
 Potrzebujesz zamockować funkcję _get_data()"""
 
@@ -30,4 +31,5 @@ def get_avg(how_much):
     return sum(numbers) / len(numbers)
 
 
-print(get_avg(3))
+if __name__ == '__main__':
+    print(get_avg(3))
